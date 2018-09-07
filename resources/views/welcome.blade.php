@@ -254,7 +254,7 @@
                   else {
                       Low = parseFloat(data.freight).toFixed(2);
                         $('.odd').text('');
-                      $('#table').append("<tr class='item" + data.id + "'><td>" + data.id + "</td><td>" + data.name + "</td><td>" + Low  + "</td><td><button class='edit-modal btn btn-info' data-id='" + data.id + "' data-name='" + data.name + "'><span class='glyphicon glyphicon-edit'></span> Edit</button> <button class='delete-modal btn btn-danger' data-id='" + data.id + "' data-name='" + data.name + "'><span class='glyphicon glyphicon-trash'></span> Delete</button></td></tr>");
+                      $('#table').append("<tr class='item" + data.id + "'><td>" + data.id + "</td><td>" + data.name + "</td><td>" + Low  + "</td><td><button class='edit-modal btn btn-info'  data-id='" + data.id + "' data-name='" + data.name + "' data-freight='" + data.freight + "'><span class='glyphicon glyphicon-edit'></span> Edit</button> <button class='delete-modal btn btn-danger' data-id='" + data.id + "' data-name='" + data.name +  "' data-freight='" + data.freight + "'><span class='glyphicon glyphicon-trash'></span> Delete</button></td></tr>");
                       $('#myModal').modal('hide');
                       $('#n').val('');
                       $('#f').val('');
