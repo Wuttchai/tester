@@ -38,8 +38,8 @@
   			<table class="table table-borderless" id="table">
   				<thead>
   					<tr>
-  						<th class="text-center">#</th>
-  						<th class="text-center">Name</th>
+  						<th class="text-center">OederID</th>
+  						<th class="text-center">Ship Name</th>
               <th class="text-center">Freight</th>
   						<th class="text-center">Actions</th>
   					</tr>
