@@ -13,6 +13,7 @@ class CreateDsTable extends Migration
         Schema::create('ds', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->decimal('freight', 10, 2)->nullable();
         });
     }
 
