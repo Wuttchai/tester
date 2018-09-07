@@ -13,9 +13,9 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/master.css') }}">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/dataTables.bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/buttons.dataTables.min.css') }}">
         <style media="screen">
 
         div.dataTables_info {
@@ -118,9 +118,9 @@
       </div>
 
       <script src="{{ asset('js/app.js') }}"></script>
-      <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-      <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
-      <script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+      <script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
+      <script src="{{ asset('js/dataTables.bootstrap.min.js') }}"></script>
+      <script src="{{ asset('js/dataTables.buttons.min.js') }}"></script>
 
       <script src="{{ asset('js/script.js') }}"></script>
     </body>

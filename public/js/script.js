@@ -15,6 +15,8 @@ $(document).ready(function() {
 
   $('.dt-button').attr('id', 'addshow');
   $('.dt-button').removeClass('dt-button');
+  $('.dataTables_empty').attr('id', 'dataTables_empty');
+  document.getElementById("formid").style.display = "dataTables_empty";
   $(document).on('click', '.edit-modal', function() {
         $('#nerror').removeClass('hidden');
         $('#nerror').text("");
