@@ -19,7 +19,7 @@
         <style media="screen">
 
         div.dataTables_info {
-          padding:7px; 
+          padding:7px;
         }
         </style>
 
@@ -38,7 +38,7 @@
   			<table class="table table-borderless" id="table">
   				<thead>
   					<tr>
-  						<th class="text-center">OederID</th>
+  						<th class="text-center">OrderID</th>
   						<th class="text-center">Ship Name</th>
               <th class="text-center">Freight</th>
   						<th class="text-center">Actions</th>
