@@ -12,15 +12,15 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/master.css') }}">
+
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/dataTables.bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/buttons.dataTables.min.css') }}">
         <style media="screen">
 
         div.dataTables_info {
-    padding:7px; // Add !important for right aligned on mobiles
-}
+          padding:7px; 
+        }
         </style>
 
     </head>
