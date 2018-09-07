@@ -150,8 +150,8 @@
               $('#formfreight').removeClass('has-error has-feedback');
               $('#feedbackf').removeClass('glyphicon glyphicon-remove form-control-feedback');
               $('#footer_action_button').text("Update");
-              $('#footer_action_button').addClass('glyphicon-check');
-              $('#footer_action_button').removeClass('glyphicon-trash');
+
+
               $('.actionBtn').addClass('btn-success');
               $('.actionBtn').removeClass('btn-danger');
               $('.actionBtn').addClass('edit');
@@ -167,8 +167,8 @@
           });
           $(document).on('click', '.delete-modal', function() {
               $('#footer_action_button').text(" Delete");
-              $('#footer_action_button').removeClass('glyphicon-check');
-              $('#footer_action_button').addClass('glyphicon-trash');
+
+
               $('.actionBtn').removeClass('btn-success');
               $('.actionBtn').addClass('btn-danger');
               $('.actionBtn').addClass('delete');
@@ -191,8 +191,7 @@
             $('#ferror').text("");
             $('#formfreight').removeClass('has-error has-feedback');
             $('#feedbackf').removeClass('glyphicon glyphicon-remove form-control-feedback');
-            $('#footer_action_button').addClass('glyphicon-check');
-            $('#footer_action_button').removeClass('glyphicon-trash');
+
             $('.actionBtn').addClass('btn-success');
             $('.actionBtn').removeClass('btn-danger');
             $('.actionBtn').text('Insert');
@@ -254,7 +253,7 @@
                   else {
                       Low = parseFloat(data.freight).toFixed(2);
                         $('.odd').text('');
-                      $('#table').append("<tr class='item" + data.id + "'><td>" + data.id + "</td><td>" + data.name + "</td><td>" + Low  + "</td><td><button class='edit-modal btn btn-info'  data-id='" + data.id + "' data-name='" + data.name + "' data-freight='" + data.freight + "'><span class='glyphicon glyphicon-edit'></span> Edit</button> <button class='delete-modal btn btn-danger' data-id='" + data.id + "' data-name='" + data.name +  "' data-freight='" + data.freight + "'><span class='glyphicon glyphicon-trash'></span> Delete</button></td></tr>");
+                      $('#table').append("<tr class='item" + data.id + "'><td>" + data.id + "</td><td>" + data.name + "</td><td>" + Low  + "</td><td><button class='edit-modal btn btn-info'  data-id='" + data.id + "' data-name='" + data.name + "' data-freight='" + data.freight + "'><span ></span> Edit</button> <button class='delete-modal btn btn-danger' data-id='" + data.id + "' data-name='" + data.name +  "' data-freight='" + data.freight + "'><span></span> Delete</button></td></tr>");
                       $('#myModal').modal('hide');
                       $('#n').val('');
                       $('#f').val('');
@@ -299,7 +298,7 @@
                       }
                     }else {
                       Low = parseFloat(data.freight).toFixed(2);
-                      $('.item' + data.id).replaceWith("<tr class='item" + data.id + "'><td>" + data.id + "</td><td>" + data.name + "</td><td>" + Low + "</td><td><button class='edit-modal btn btn-info' data-id='" + data.id + "' data-name='" + data.name + "' data-freight='" + data.freight + "'><span class='glyphicon glyphicon-edit'></span> Edit</button> <button class='delete-modal btn btn-danger' data-id='" + data.id + "' data-name='" + data.name + "' data-freight='" + data.freight + "' ><span class='glyphicon glyphicon-trash'></span> Delete</button></td></tr>");
+                      $('.item' + data.id).replaceWith("<tr class='item" + data.id + "'><td>" + data.id + "</td><td>" + data.name + "</td><td>" + Low + "</td><td><button class='edit-modal btn btn-info' data-id='" + data.id + "' data-name='" + data.name + "' data-freight='" + data.freight + "'><span ></span> Edit</button> <button class='delete-modal btn btn-danger' data-id='" + data.id + "' data-name='" + data.name + "' data-freight='" + data.freight + "' ><span ></span> Delete</button></td></tr>");
                       $('#myModal').modal('hide');
                       $('#n').val('');
                       $('#f').val('');
